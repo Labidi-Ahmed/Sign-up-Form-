@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=4, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    
     <aside>
+        
         <div id="logo-container">
-            <img height="" width="" src="./images/odin-lined.png" alt=""><div>ODIN</div></div>
+            
+            <img height="" width="" src="./images/odin-lined.png" alt="">
+            <div id="odin">ODIN</div>
         </div>
+        <div  class="credit"> Photo by <a href="https://unsplash.com/fr/@haliewestphoto">Halie West </a>  on <a href="https://unsplash.com"> Unsplash</a> </div>
     </aside>
     <main>
+        <header>
+           
+            <div>
+                <div class="header-text">This is not a real online service! You know you need something 
+                    like this in your life to help you realize your deepest dreams.
+                </div>
+                <div>Sign up now to get started.</div>
+            </div>
+            <h1>You know you want to.</h1>
+        </header>
         <form action="#">
-            <header>This is not a real online service! You know you need something
-                 like this in your life to help you realize your deepest dreams.
-                  Sign up now to get started.</header>
-                  <h1>You know you want to.</h1>
-            <section>
-                <div id="form-header">Let's do this! </div>
-                <div id="form-content">
-                    <div class="form-section">
-                        <label for="name">FIRST NAME</label>
-                        <input type="text" name="name" id="name">
-                        <label for="email">EMAIL</label>4*
-                        <input type="email" name="" id="email">
-                        <label for="pswd">PASSWORD</label>
-                        <input type="password" name="" id="pswd">
+            
+            <fieldset >
+                <legend >Let's do this! </legend>
+                <div class="fieldset-content">
+                    <div class="fieldset-section">
+                        <div>
+                            <label for="name">FIRST NAME</label>
+                            <input type="text" name="name" id="name" placeholder="John" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="" id="email" placeholder="name@mail.com" required>
+                        </div>
+                        <div>
+                            <label for="pswd">PASSWORD</label>
+                            <input type="password" name=""  id="pswd" placeholder="your password" required>
+                        </div>
                     </div>
-                    <div class="form-section"></div>
-                        <label for="lname">LAST NAME</label>
-                        <input type="text" name="name" id="lname">
-                        <label for="tel">PHONE NUMBER</label>4*
-                        <input type="tel" name="" id="tel">
-                        <label for="cpswd">CONFIRM PASSWORD</label>
-                        <input type="password" name="" id="cpswd">
-                    
+                    <div class="fieldset-section">
+                        <div>
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" name="name" id="lname" >
+                        </div>
+                        <div>
+                            <label for="tel">PHONE NUMBER</label>
+                            <input type="tel" name="" id="tel">
+                        </div>
+                        <div>
+                            <label for="cpswd">CONFIRM PASSWORD</label>
+                            <input type="password" name="" id="cpswd" placeholder="your password" required>
+                        </div>
                     </div>
-            </section>
+                </div>
+            </fieldset>
             <footer>
+                
                 <button type="submit">Create Account</button>
                 <div>Already have an account? <a href="#">Log in</a></div>
             </footer>
         </form>
+        
     </main>
-
+    
 </body>
 </html>
