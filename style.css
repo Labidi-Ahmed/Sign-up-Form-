@@ -21,7 +21,7 @@ font-family: roboto-light;
     
 :root{
    /* --aside-widh:calc(100vw-) */
-   font-family: roboto;
+   font-family: roboto,sans-serif;
 }
 
 
@@ -30,6 +30,7 @@ body{
     height: 100vh;
     width: 100vw;
     margin: 0;
+    
 }
 
 
@@ -97,6 +98,7 @@ main{
     background-color: #FAFAFA;
     height: 100%;
     width: calc(100% - 35%);
+    overflow: scroll;
     
    
    
