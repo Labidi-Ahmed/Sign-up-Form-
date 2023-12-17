@@ -359,3 +359,19 @@ input:not(:placeholder-shown):invalid {
         }
        
     } 
+    input:focus {
+        outline: none;
+    }
+
+    
+    input:focus{
+        border-color: blue;
+        box-shadow: 0 3px 10px rgba(0, 0, 255, 0.3);
+    }
+  
+    .error{
+        color: red;
+        font-size: 0.8rem;
+        padding: 5px 0px;
+        font-family: sans-serif;
+    }
